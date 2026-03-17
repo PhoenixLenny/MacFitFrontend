@@ -13,7 +13,7 @@ const route = useRoute()
       <div
         class="page-shell"
         :class="{
-          'page-shell--full': route.name === 'landingpage'
+          'page-shell--full': route.name === 'LandingPage',
         }"
       >
         <RouterView />
